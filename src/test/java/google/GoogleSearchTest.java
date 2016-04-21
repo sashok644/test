@@ -16,7 +16,7 @@ import static org.junit.Assert.assertEquals;
 public class GoogleSearchTest {
 
     @Test
-    public void testGoogleSearch() {
+    public void testSearchAndFollowLink() {
 
         open("http://google.com/ncr");
         $(By.name("q")).setValue("Selenium automates browsers").pressEnter();

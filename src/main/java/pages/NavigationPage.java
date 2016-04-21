@@ -19,6 +19,6 @@ public class NavigationPage {
     }
 
     public void refresh() {
-        $(" .asf").click();
+        $(".asf").click();
     }
 }
