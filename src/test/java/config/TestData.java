@@ -5,6 +5,7 @@ package config;
  */
 public class TestData {
 
-    public static String email = "example@gmail.com";
-    public static String password = "password";
+    public static String email = "";
+    public static String password = "";
+    public static String text = "Hello World";
 }
